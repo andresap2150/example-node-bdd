@@ -1,0 +1,23 @@
+{
+  "name": "example-node-bdd",
+  "version": "1.0.0",
+  "description": "example project for show basic usage of cucumber, chai and selenium",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -x 50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresap2150/example-node-bdd.git"
+  },
+  "author": "andres.aparicio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresap2150/example-node-bdd/issues"
+  },
+  "homepage": "https://github.com/andresap2150/example-node-bdd#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "selenium-cucumber-js": "^1.8.1"
+  }
+}
